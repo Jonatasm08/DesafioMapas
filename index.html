@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocalização com Mapas</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" defer></script>
+    <script src="/js/script.js" defer></script>
+</head>
+<body>
+    <h1>Localização no Mapa</h1>
+    <form id="location-form">
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" placeholder="Digite o CEP">
+        
+        <label for="logradouro">Logradouro:</label>
+        <input type="text" id="logradouro" placeholder="Digite o logradouro">
+        
+        <label for="latitude">Latitude:</label>
+        <input type="text" id="latitude" placeholder="Digite a latitude">
+        
+        <label for="longitude">Longitude:</label>
+        <input type="text" id="longitude" placeholder="Digite a longitude">
+        
+        <button type="submit">Buscar Localização</button>
+    </form>
+    
+    <div id="map"></div>
+
+    <!-- Incluindo Leaflet JS -->
+  
+</body>
+</html>
